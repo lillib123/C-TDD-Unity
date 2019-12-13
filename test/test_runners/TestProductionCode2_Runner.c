@@ -27,9 +27,6 @@
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
-extern void test_IgnoredTest(void);
-extern void test_AnotherIgnoredTest(void);
-extern void test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented(void);
 
 
 /*=======Test Reset Option=====*/
@@ -45,9 +42,6 @@ void resetTest(void)
 int main(void)
 {
   UnityBegin("test/TestProductionCode2.c");
-  /*RUN_TEST(test_IgnoredTest, 18);
-  RUN_TEST(test_AnotherIgnoredTest, 23);
-  RUN_TEST(test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented, 28);*/
 
   return (UnityEnd());
 }
