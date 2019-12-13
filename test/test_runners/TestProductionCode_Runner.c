@@ -19,7 +19,7 @@
 }
 
 /*=======Automagically Detected Files To Include=====*/
-#include "../unity.h"
+#include "../unity/unity.h"
 #include <setjmp.h>
 #include <stdio.h>
 #include "ProductionCode.h"
