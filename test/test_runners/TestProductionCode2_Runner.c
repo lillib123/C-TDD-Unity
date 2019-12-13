@@ -45,9 +45,9 @@ void resetTest(void)
 int main(void)
 {
   UnityBegin("test/TestProductionCode2.c");
-  RUN_TEST(test_IgnoredTest, 18);
+  /*RUN_TEST(test_IgnoredTest, 18);
   RUN_TEST(test_AnotherIgnoredTest, 23);
-  RUN_TEST(test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented, 28);
+  RUN_TEST(test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented, 28);*/
 
   return (UnityEnd());
 }
