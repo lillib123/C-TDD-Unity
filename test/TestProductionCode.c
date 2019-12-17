@@ -12,7 +12,13 @@ void a_passing_test(void) {
   TEST_ASSERT_EQUAL(0, test());
 }
 
+void isAlive_can_detect_live_cell(void) {
+  TEST_ASSERT_EQUAL_INT(1,isAlive(1));
+}
 
+void isAlive_can_detect_dead_cell(void) {
+  TEST_ASSERT_EQUAL_INT(0,isAlive(0));
+}
 
 //Any live cell with fewer than two live neighbours dies, as if caused by under-population.
 // Any live cell with two or three live neighbours lives on to the next generation.

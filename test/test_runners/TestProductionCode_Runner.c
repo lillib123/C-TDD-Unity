@@ -43,6 +43,8 @@ void resetTest(void)
 int main(void) {
   UnityBegin("test/TestProductionCode.c");
   RUN_TEST(a_passing_test, 20);
+  RUN_TEST(isAlive_can_detect_live_cell, 20);
+  RUN_TEST(isAlive_can_detect_dead_cell, 20);
 
   return (UnityEnd());
 }
