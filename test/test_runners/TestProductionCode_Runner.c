@@ -28,7 +28,8 @@
 extern void setUp(void);
 extern void tearDown(void);
 extern void a_passing_test(void);
-
+extern void isAlive_can_detect_live_cell(void);
+extern void isAlive_can_detect_dead_cell(void);
 
 /*=======Test Reset Option=====*/
 void resetTest(void);

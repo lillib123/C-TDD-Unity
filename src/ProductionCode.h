@@ -3,3 +3,4 @@
 int test(void);
 
 bool isAlive(int cell);
+
