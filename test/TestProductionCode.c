@@ -19,6 +19,13 @@ void isAlive_can_detect_live_cell(void) {
 void isAlive_can_detect_dead_cell(void) {
   TEST_ASSERT_EQUAL_INT(false,isAlive(0));
 }
+void getNumberOfNeighbors_when_examining_cell_with_1_left_neighbor_returns_1(void) {
+  int grid[1][2] = {
+    {1,0}
+  };
+
+  TEST_ASSERT_EQUAL_INT(1,getNumberOfNeighbors(grid,0,1));
+}
 
 /*
 

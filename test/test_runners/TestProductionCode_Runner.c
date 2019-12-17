@@ -30,6 +30,7 @@ extern void tearDown(void);
 extern void a_passing_test(void);
 extern void isAlive_can_detect_live_cell(void);
 extern void isAlive_can_detect_dead_cell(void);
+extern void getNumberOfNeighbors_when_examining_cell_with_1_left_neighbor_returns_1(void);
 
 /*=======Test Reset Option=====*/
 void resetTest(void);
@@ -46,6 +47,7 @@ int main(void) {
   RUN_TEST(a_passing_test, 20);
   RUN_TEST(isAlive_can_detect_live_cell, 20);
   RUN_TEST(isAlive_can_detect_dead_cell, 20);
+  RUN_TEST(getNumberOfNeighbors_when_examining_cell_with_1_left_neighbor_returns_1, 20);
 
   return (UnityEnd());
 }
