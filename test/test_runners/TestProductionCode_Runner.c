@@ -40,8 +40,7 @@ void resetTest(void)
 
 
 /*=======MAIN=====*/
-int main(void)
-{
+int main(void) {
   UnityBegin("test/TestProductionCode.c");
   RUN_TEST(a_passing_test, 20);
 
